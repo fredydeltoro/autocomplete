@@ -63,7 +63,7 @@ body {
 
 .input input:focus-visible {
   border: 0;
-  outline-color: transparent;
+  outline: none;
 }
 
 .yellow {
