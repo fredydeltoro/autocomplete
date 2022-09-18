@@ -48,7 +48,6 @@ const AppView = Backbone.View.extend({
     'click .suggestion': 'onClick',
   },
   clickOutside: function (e) {
-    console.log('ya ==>', e.target.closest('.suggestion'));
     if (e.target.closest('.suggestion') === null) {
       app.characters.reset()
     }
