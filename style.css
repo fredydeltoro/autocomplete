@@ -58,6 +58,7 @@ body {
   font-size: 24px;
   line-height: 27px;
   width: 100%;
+  padding: 0;
 }
 
 .input input:focus-visible {
